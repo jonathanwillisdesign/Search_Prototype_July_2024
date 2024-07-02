@@ -13,13 +13,27 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
+  // INCLUDES FILTER - string appears anywhere
+  // const handleFilterData = (searchValue: string) => {
+  //   setQuery(searchValue);
+  //   setIsLoading(true);
+  //   // simulating data fetching
+  //   setTimeout(() => {
+  //     const filteredDesigns = data.designs.filter((design) =>
+  //       design.name.toLowerCase().includes(searchValue.toLowerCase())
+  //     );
+  //     setIsLoading(false);
+  //     setFilteredData(filteredDesigns);
+  //   }, 1500);
+  // };
+
+  // STARTS WITH FILTER - string only appears at start
   const handleFilterData = (searchValue: string) => {
     setQuery(searchValue);
     setIsLoading(true);
-    // simulating data fetching
     setTimeout(() => {
       const filteredDesigns = data.designs.filter((design) =>
-        design.name.toLowerCase().includes(searchValue.toLowerCase())
+        design.name.toLowerCase().startsWith(searchValue.toLowerCase())
       );
       setIsLoading(false);
       setFilteredData(filteredDesigns);
