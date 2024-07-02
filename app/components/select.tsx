@@ -16,7 +16,7 @@ interface SelectProps {
 export default function Select({ label, disabled = true }: SelectProps) {
   return (
     <div className="w-[300px] ">
-      <p className="mb-10">{label}</p>
+      <p className="mb-5 text-sm font-bold">{label}</p>
       <RadixSelect.Root>
         <SelectTrigger disabled={disabled} />
         <RadixSelect.Portal>
