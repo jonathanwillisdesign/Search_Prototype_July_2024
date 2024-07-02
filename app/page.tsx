@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <div className="max-w-[1200px] w-full m-auto flex flex-col pt-40 px-40 gap-40">
         <div className="flex justify-between">
-          <Select label="Labels" />
+          <Select label="Labels" disabled={true} />
           <Search onSearch={handleFilterData} />
         </div>
         <div className="grid grid-cols-5 gap-15 mb-60">
@@ -74,7 +74,7 @@ function NoResults({ query }: { query: string }) {
         alt="No results Icon"
       />
       <h2 className="headline-md-bold uppercase">
-        We are sorry, we couldn’t find any results for "{query}"
+        We are sorry, we couldn’t find any results for {query}
       </h2>
       <p className="text-gray-dark">Please try another design name</p>
     </div>
