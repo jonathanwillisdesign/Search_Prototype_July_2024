@@ -44,7 +44,7 @@ const Search: React.FC<SearchProps> = ({ onSearch }) => {
         <input
           ref={inputRef}
           type="text"
-          placeholder="Search..."
+          placeholder="Search by design name..."
           className="h-20 outline-none placeholder-gray-500 bg-transparent appearance-none caret-black caret p-2 flex-grow"
           value={searchValue}
           onChange={handleInputChange}

@@ -54,11 +54,11 @@ export default function Home() {
         </div>
       </div>
       <div className="max-w-[1200px] w-full m-auto flex flex-col pt-40 px-40 gap-40">
-        <div className="flex justify-between">
+        <div className="flex flex-col md:flex-row gap-20 justify-between">
           <Select label="Labels" disabled={true} />
           <Search onSearch={handleFilterData} />
         </div>
-        <div className="grid grid-cols-5 gap-15 mb-60">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-15 mb-60">
           {filteredData.length === 0 ? (
             <NoResults query={query} />
           ) : (
@@ -80,17 +80,19 @@ export default function Home() {
 
 function NoResults({ query }: { query: string }) {
   return (
-    <div className="flex flex-col items-center flex-grow justify-center gap-5 py-60 col-span-5">
+    <div className="flex flex-col items-center flex-grow justify-center gap-5 py-60 col-span-2 md:col-span-4 lg:col-span-5">
       <Image
         width={80}
         height={80}
         src="/no-results-icon.png"
         alt="No results Icon"
       />
-      <h2 className="headline-md-bold uppercase">
+      <h2 className="headline-md-bold uppercase text-center">
         We are sorry, we couldn’t find any results for {query}
       </h2>
-      <p className="text-gray-dark">Please try another design name</p>
+      <p className="text-gray-dark text-center">
+        Please try another design name
+      </p>
     </div>
   );
 }
