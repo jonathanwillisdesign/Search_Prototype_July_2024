@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-fg {
+    @apply text-black dark:text-white;
+  }
+  .text-fg-muted {
+    @apply text-gray-dark dark:text-gray;
+  }
+}
+
+/* HEADLINE TYPOGRAPHY COMPONETS */
+@layer components {
+  .headline-huge {
+    @apply font-title text-[3.75rem] leading-[3.75rem]	font-bold;
+  }
+  .headline-xl {
+    @apply font-title text-4xl;
+  }
+  .headline-xl-bold {
+    @apply font-title text-4xl font-bold;
+  }
+  .headline-xl-italic {
+    @apply font-condensed italic text-4xl uppercase tracking-widest;
+  }
+  .headline-lg {
+    @apply font-title text-3xl;
+  }
+  .headline-lg-bold {
+    @apply font-title text-3xl font-bold;
+  }
+  .headline-lg-italic {
+    @apply font-condensed italic text-3xl uppercase tracking-wider;
+  }
+  .headline-md {
+    @apply font-title text-2xl tracking-wide;
+  }
+  .headline-md-bold {
+    @apply font-title text-2xl font-bold tracking-wide;
+  }
+  .headline-md-italic {
+    @apply font-condensed italic text-2xl uppercase tracking-wide;
+  }
+  .headline-sm {
+    @apply font-title text-lg tracking-wide;
+  }
+  .headline-sm-bold {
+    @apply font-title text-lg font-bold tracking-wide;
+  }
+  .headline-sm-italic {
+    @apply font-condensed italic text-lg uppercase tracking-wide;
+  }
+}
+
+@keyframes dialog-content-show {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@keyframes dialog-content-hide {
+  from {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0.95);
+  }
+}
+
+@keyframes dialog-overlay-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dialog-overlay-hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

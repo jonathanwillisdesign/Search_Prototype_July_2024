@@ -1,0 +1,164 @@
+{
+  "designs": [
+    {
+      "gender": "Mens",
+      "id": 1,
+      "createdDate": "2024-07-15",
+      "name": "Home Shirt",
+      "createdBy": "Jonny Willis",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 2,
+      "createdDate": "2024-07-16",
+      "name": "Away Shirt",
+      "createdBy": "Emily Johnson",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Mens",
+      "id": 3,
+      "createdDate": "2024-07-17",
+      "name": "Third Jersey",
+      "createdBy": "Michael Rodriguez",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 4,
+      "createdDate": "2024-07-18",
+      "name": "Practice Shirt",
+      "createdBy": "Sarah Thompson",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Mens",
+      "id": 5,
+      "createdDate": "2024-07-19",
+      "name": "Limited Edition Jersey",
+      "createdBy": "David Lee",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 6,
+      "createdDate": "2024-07-20",
+      "name": "Classic Jersey",
+      "createdBy": "Olivia Smith",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Mens",
+      "id": 7,
+      "createdDate": "2024-07-21",
+      "name": "Retro Shirt",
+      "createdBy": "Ethan Brown",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 8,
+      "createdDate": "2024-07-22",
+      "name": "Vintage Jersey",
+      "createdBy": "Ava Wilson",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Mens",
+      "id": 9,
+      "createdDate": "2024-07-23",
+      "name": "Signature Series Shirt",
+      "createdBy": "Daniel White",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 10,
+      "createdDate": "2024-07-24",
+      "name": "Festive Jersey",
+      "createdBy": "Sophia Garcia",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Mens",
+      "id": 11,
+      "createdDate": "2024-07-25",
+      "name": "Cool Shirt",
+      "createdBy": "Tom Brown",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 12,
+      "createdDate": "2024-07-26",
+      "name": "Warm Jacket",
+      "createdBy": "Lisa Johnson",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Mens",
+      "id": 13,
+      "createdDate": "2024-07-27",
+      "name": "Sporty T-Shirt",
+      "createdBy": "Mike Anderson",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 14,
+      "createdDate": "2024-07-28",
+      "name": "Casual Top",
+      "createdBy": "Emma Thomas",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Mens",
+      "id": 15,
+      "createdDate": "2024-07-29",
+      "name": "Formal Shirt",
+      "createdBy": "Ryan Wilson",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 16,
+      "createdDate": "2024-07-30",
+      "name": "Striped Blouse",
+      "createdBy": "Megan Parker",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Mens",
+      "id": 17,
+      "createdDate": "2024-07-31",
+      "name": "Denim Jacket",
+      "createdBy": "Jake Roberts",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 18,
+      "createdDate": "2024-08-01",
+      "name": "Sleeveless Dress",
+      "createdBy": "Natalie Adams",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Mens",
+      "id": 19,
+      "createdDate": "2024-08-02",
+      "name": "Hooded Sweatshirt",
+      "createdBy": "Alex Cooper",
+      "imageUrl": ""
+    },
+    {
+      "gender": "Womens",
+      "id": 20,
+      "createdDate": "2024-08-03",
+      "name": "Printed Leggings",
+      "createdBy": "Sophie Evans",
+      "imageUrl": ""
+    }
+  ]
+}
