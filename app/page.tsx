@@ -55,7 +55,9 @@ export default function Home() {
       </div>
       <div className="max-w-[1200px] w-full m-auto flex flex-col pt-40 px-40 gap-40">
         <div className="flex flex-col md:flex-row gap-20 justify-between">
-          <Select label="Labels" disabled={true} />
+          <div className={`${query == "" ? "opacity-100" : "opacity-25"}`}>
+            <Select label="Labels" disabled={true} />
+          </div>
           <Search onSearch={handleFilterData} />
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-15 mb-60">
